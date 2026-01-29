@@ -12,7 +12,12 @@
     "interact": "hardhat run scripts/interact.js --network localhost",
     "example:basic": "hardhat run examples/deploy-and-interact.js --network localhost",
     "example:eth": "hardhat run examples/send-eth.js --network localhost",
-    "example:fork": "hardhat run examples/mainnet-fork.js --network mainnetFork"
+    "example:fork": "hardhat run examples/mainnet-fork.js --network mainnetFork",
+    "smoke-test": "hardhat run scripts/smoke-test.js --network localhost",
+    "start": "./scripts/helpers/start-blockchain.sh",
+    "stop": "./scripts/helpers/stop-blockchain.sh",
+    "reset": "./scripts/helpers/reset-blockchain.sh",
+    "health": "./scripts/helpers/quick-test.sh"
   },
   "keywords": [
     "ethereum",
