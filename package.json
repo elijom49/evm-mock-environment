@@ -14,12 +14,20 @@
     "example:eth": "hardhat run examples/send-eth.js --network localhost",
     "example:fork": "hardhat run examples/mainnet-fork.js --network mainnetFork"
   },
-  "keywords": ["ethereum", "hardhat", "blockchain", "testing"],
+  "keywords": [
+    "ethereum",
+    "hardhat",
+    "blockchain",
+    "testing"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "dotenv": "^17.2.3",
     "hardhat": "^2.28.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
   }
 }
